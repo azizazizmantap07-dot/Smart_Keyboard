@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Keyboard</string>
+    <string name="keyboard_name">Smart Keyboard</string>
+    <string name="ime_subtype_label">Indonesia</string>
+</resources>

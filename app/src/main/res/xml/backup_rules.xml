@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Only shared preferences and databases are backed up.
+  The TinyChar-BiGRU ONNX model ships inside the APK (assets/), so there is
+  nothing in the "file" domain that needs backing up.
+-->
+<full-backup-content>
+    <include domain="sharedpref" path="." />
+    <include domain="database" path="." />
+</full-backup-content>
