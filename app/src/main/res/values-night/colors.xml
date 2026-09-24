@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FFD0BCFF</color>
+    <color name="keyboard_background">#FF1C1B1F</color>
+    <color name="key_background">#FF2B2930</color>
+    <color name="key_background_pressed">#FF3D3A45</color>
+    <color name="key_text">#FFE6E1E5</color>
+    <color name="key_special_background">#FF4A4458</color>
+    <color name="key_special_text">#FFE8DEF8</color>
+    <color name="suggestion_background">#FF2B2930</color>
+    <color name="suggestion_text">#FFE6E1E5</color>
+</resources>

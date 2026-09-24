@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Cloud backup & device transfer: only sharedpref + database.
+  The TinyChar-BiGRU ONNX model ships inside the APK (assets/), so there is
+  nothing in the "file" domain that needs to be included or excluded here.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="." />
+        <include domain="database" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="." />
+        <include domain="database" path="." />
+    </device-transfer>
+</data-extraction-rules>
